@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "WebDL Setup", "WebDL Setup\WebDL Setup.isproj", "{9DE87D25-4B52-4239-947B-9B8403ABF6F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Default = CD_ROM|Default
+		DVD-5|Default = DVD-5|Default
+		SingleImage|Default = SingleImage|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DE87D25-4B52-4239-947B-9B8403ABF6F2}.CD_ROM|Default.ActiveCfg = CD_ROM
+		{9DE87D25-4B52-4239-947B-9B8403ABF6F2}.CD_ROM|Default.Build.0 = CD_ROM
+		{9DE87D25-4B52-4239-947B-9B8403ABF6F2}.DVD-5|Default.ActiveCfg = DVD-5
+		{9DE87D25-4B52-4239-947B-9B8403ABF6F2}.DVD-5|Default.Build.0 = DVD-5
+		{9DE87D25-4B52-4239-947B-9B8403ABF6F2}.SingleImage|Default.ActiveCfg = SingleImage
+		{9DE87D25-4B52-4239-947B-9B8403ABF6F2}.SingleImage|Default.Build.0 = SingleImage
+		{9DE87D25-4B52-4239-947B-9B8403ABF6F2}.SingleImage|Default.Deploy.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
