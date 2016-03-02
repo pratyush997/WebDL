@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebDL", "WebDL\WebDL.vcxproj", "{AB05B45F-2CAB-46C8-BF04-26937344F9D7}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "WebDL_Setup", "WebDL_Setup\WebDL_Setup.isproj", "{80380865-BF65-475F-9566-779FB4E695BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7} = {AB05B45F-2CAB-46C8-BF04-26937344F9D7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Win32 = CD_ROM|Win32
+		Debug|Win32 = Debug|Win32
+		DVD-5|Win32 = DVD-5|Win32
+		Release|Win32 = Release|Win32
+		SingleImage|Win32 = SingleImage|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7}.CD_ROM|Win32.ActiveCfg = Release|Win32
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7}.CD_ROM|Win32.Build.0 = Release|Win32
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7}.Debug|Win32.Build.0 = Debug|Win32
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7}.DVD-5|Win32.Build.0 = Debug|Win32
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7}.Release|Win32.ActiveCfg = Release|Win32
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7}.Release|Win32.Build.0 = Release|Win32
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7}.SingleImage|Win32.ActiveCfg = Release|Win32
+		{AB05B45F-2CAB-46C8-BF04-26937344F9D7}.SingleImage|Win32.Build.0 = Release|Win32
+		{80380865-BF65-475F-9566-779FB4E695BD}.CD_ROM|Win32.ActiveCfg = CD_ROM
+		{80380865-BF65-475F-9566-779FB4E695BD}.CD_ROM|Win32.Build.0 = CD_ROM
+		{80380865-BF65-475F-9566-779FB4E695BD}.Debug|Win32.ActiveCfg = DVD-5
+		{80380865-BF65-475F-9566-779FB4E695BD}.Debug|Win32.Build.0 = DVD-5
+		{80380865-BF65-475F-9566-779FB4E695BD}.DVD-5|Win32.ActiveCfg = DVD-5
+		{80380865-BF65-475F-9566-779FB4E695BD}.DVD-5|Win32.Build.0 = DVD-5
+		{80380865-BF65-475F-9566-779FB4E695BD}.Release|Win32.ActiveCfg = SingleImage
+		{80380865-BF65-475F-9566-779FB4E695BD}.Release|Win32.Build.0 = SingleImage
+		{80380865-BF65-475F-9566-779FB4E695BD}.SingleImage|Win32.ActiveCfg = SingleImage
+		{80380865-BF65-475F-9566-779FB4E695BD}.SingleImage|Win32.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
